@@ -53,6 +53,16 @@ function Projects() {
               demoLink='https://game-portal-site-scss.vercel.app/'
             />
           </Col>
+          <Col md={4} className='project-card'>
+            <ProjectCard
+              imgPath={editor}
+              isBlog={false}
+              title='Weather'
+              description=' '
+              ghLink='https://github.com/mustafa-akaydin/weather-js'
+              demoLink='https://weather-js-eight.vercel.app/'
+            />
+          </Col>
         </Row>
       </Container>
     </Container>
