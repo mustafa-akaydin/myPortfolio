@@ -2,12 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
+import portal from "../../Assets/Projects/portal.png";
+import search from '../../Assets/Projects/search.png'
+import twitter from '../../Assets/Projects/twitter.png'
+import weather from '../../Assets/Projects/weather.png'
 
-import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {
   return (
@@ -23,7 +22,7 @@ function Projects() {
         <Row style={{ justifyContent: 'center', paddingBottom: '10px' }}>
           <Col md={4} className='project-card'>
             <ProjectCard
-              imgPath={chatify}
+              imgPath={twitter}
               isBlog={false}
               title='Twitter Clone'
               description=''
@@ -34,7 +33,7 @@ function Projects() {
 
           <Col md={4} className='project-card'>
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={search}
               isBlog={false}
               title='Search Photo'
               description=' '
@@ -45,7 +44,7 @@ function Projects() {
 
           <Col md={4} className='project-card'>
             <ProjectCard
-              imgPath={editor}
+              imgPath={portal}
               isBlog={false}
               title='Game Portal'
               description=' '
@@ -55,7 +54,7 @@ function Projects() {
           </Col>
           <Col md={4} className='project-card'>
             <ProjectCard
-              imgPath={editor}
+              imgPath={weather}
               isBlog={false}
               title='Weather'
               description=' '
